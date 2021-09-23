@@ -20,7 +20,36 @@ body {
   margin: 0 auto;
 }
 
+
 header {
   height: 80px;
 }
 
+header .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-menu {
+  position: fixed;
+  width: 100%;
+}
+
+.top-menu .left-menu, .top-menu .right-menu {
+  display: inline-block;
+}
+
+.top-menu ul {
+  list-style: none;
+}
+
+.top-menu ul, .top-menu ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.top-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
