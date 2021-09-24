@@ -104,6 +104,7 @@ header {
 
 .jumbo-left {
   width: 30%;
+  margin-right: 1%;
 }
 
 .jumbo-right {
@@ -117,7 +118,10 @@ header {
 }
 
 .jumbo-left .btn {
+  display: inline-block;
+  width: 75%;
   text-decoration: none;
+  text-align: center;
   font-size: 24px;
 }
 
@@ -131,7 +135,7 @@ header {
 }
 
 .jumbotron .jumbo-right img {
-  width: 95%;
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -142,7 +146,7 @@ main .container {
 }
 
 main .container h2 {
-  font-size: 42px;
+  font-size: 48px;
 }
 
 main p.payment {
@@ -151,14 +155,9 @@ main p.payment {
   margin-bottom: 35px;
 }
 
-/* main .row {
-  
-} */
-
 main .main-col {
   width: calc(100% / 3.33);
-  min-height: 800px;
-  background-color: cornflowerblue;
+  
 }
 
 main .main-col.mid-col {
@@ -167,6 +166,8 @@ main .main-col.mid-col {
 
 main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
   float: left;
+  min-height: 800px;
+  background-color: cornflowerblue;
 }
 
 main .large-col {
@@ -194,4 +195,24 @@ main .large-col {
 
 .row.photo-text {
   margin-bottom: 150px;
+}
+
+.row .main-col.card {
+  float: left;
+}
+
+.row .main-col.card.mid-col { /*provvisorio per via del layout coi colori e della classe condivisa con le altre colonne*/
+  background-color: #fff;
+}
+
+.row .main-col.card .card-img {
+  background-color:deepskyblue;
+  min-height: 300px;
+  margin-top: 30px;
+}
+
+.row .main-col.card .card-text {
+  background-color:indianred;
+  min-height: 350px;
+  margin: 30px 0;
 }
