@@ -151,18 +151,18 @@ main p.payment {
   margin-bottom: 35px;
 }
 
-main .row {
-  width: 100%;
-}
+/* main .row {
+  
+} */
 
 main .main-col {
-  width: calc(33.33% - 60px);
+  width: calc(100% / 3.33);
   min-height: 800px;
   background-color: cornflowerblue;
 }
 
 main .main-col.mid-col {
-  margin: 0 30px;
+  margin: 0 50px;
 }
 
 main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
@@ -170,8 +170,28 @@ main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
 }
 
 main .large-col {
-  width: 90%;
   min-height: 300px;
   background-color: cornflowerblue;
-  margin: 30px 0;
+  margin: 30px 0 150px 0;
+}
+
+.row .left-content, .row .right-content {
+  float: left;
+}
+
+.row .left-content {
+  width: calc(60% - 20px);
+  min-height: 400px;
+  background-color: darkorange;
+  margin-right: 20px;
+}
+
+.row .right-content {
+  width: 40%;
+  min-height: 400px;
+  background-color: darksalmon;
+}
+
+.row.photo-text {
+  margin-bottom: 150px;
 }
