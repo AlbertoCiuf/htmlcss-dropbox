@@ -157,7 +157,6 @@ main p.payment {
 
 main .main-col {
   width: calc(100% / 3.33);
-  
 }
 
 main .main-col.mid-col {
@@ -225,3 +224,36 @@ main .large-col {
 .row .clients {
   color: #1867FF;
 }
+
+/* .sponsor .container {
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.sponsor {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.fagioli {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* float: left; */
+  height: 400px;
+  width: 30%;
+  background-color: blue;
+  z-index: 9999999999;
+}
+
+/* .sponsor-mid {
+  height: 400px;
+  background-color: #F5F5F5;
+}
+
+.sponsor-right {
+  float: right;
+  height: 400px;
+  width: 30%;
+  background-color: red;
+} */
