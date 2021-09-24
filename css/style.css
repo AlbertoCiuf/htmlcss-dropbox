@@ -16,7 +16,6 @@ body {
 }
 
 .container {
-  /* width: 80%; */
   max-width: 100%;
   margin: 0 auto;
 }
@@ -51,7 +50,6 @@ header {
 
 .top-menu ul {
   list-style: none;
- 
 }
 
 .top-menu ul, .top-menu ul li {
@@ -69,11 +67,8 @@ header {
   color: white;
 } 
 
-.left-menu #logo-img, .left-menu ul {
-  vertical-align: middle;
-}
-
 .left-menu #logo-img {
+  vertical-align: middle;
   padding-left: 20px;
 }
 
@@ -116,7 +111,6 @@ header {
 }
 
 .jumbo-left p {
-
   font-size: 20px;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -137,7 +131,21 @@ header {
 }
 
 .jumbotron .jumbo-right img {
-  width: 100%;
+  width: 95%;
   margin-top: 30px;
+}
 
+/* MAIN SECTION */
+main .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 42px;
+}
+
+main p.payment {
+  display: inline-block;
+  padding: 35px 20px 0 0;
 }
