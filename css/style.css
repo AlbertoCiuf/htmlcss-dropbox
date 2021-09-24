@@ -161,7 +161,7 @@ main .main-col {
 }
 
 main .main-col.mid-col {
-  margin: 0 50px;
+  margin: 0 55px;
 }
 
 main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
@@ -215,4 +215,13 @@ main .large-col {
   background-color:indianred;
   min-height: 350px;
   margin: 30px 0;
+}
+
+.row.narrow h2 {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.row .clients {
+  color: #1867FF;
 }
