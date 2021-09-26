@@ -279,3 +279,21 @@ main .large-col {
   background-color:cadetblue;
 }
 
+
+.mid-sponsor {
+  padding: 15px 15px;
+  overflow: auto;
+}
+
+.mid-sponsor img {
+  width: 30%;
+  height: 30%;
+}
+
+.mid-sponsor p {
+  font-size: 14px;
+}
+
+.mid-sponsor .credits {
+  margin-top: 30px;
+}
