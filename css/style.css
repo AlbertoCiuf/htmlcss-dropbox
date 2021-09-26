@@ -225,10 +225,6 @@ main .large-col {
   color: #1867FF;
 }
 
-/* .sponsor .container {
-  width: 100%;
-  margin: 0 auto;
-} */
 
 .sponsor {
   margin-top: 40px;
@@ -255,3 +251,31 @@ main .large-col {
   width: 30%;
   background-color: khaki;
 }
+
+.left-sponsor .row.upper {
+  height: 200px;
+  background-color: cyan;
+}
+
+.left-sponsor .row.lower {
+  height: 200px;
+  background-color: brown;
+}
+
+.left-sponsor .row.upper img, .left-sponsor .row.lower img, .right-sponsor .row.upper img, .right-sponsor .row.lower img {
+  padding-top: 70px;
+  width: 50%;
+  height: 70%;
+  float: left;
+}
+
+.right-sponsor .row.upper {
+  height: 200px;
+  background-color:burlywood;
+}
+
+.right-sponsor .row.lower {
+  height: 200px;
+  background-color:cadetblue;
+}
+
