@@ -281,19 +281,28 @@ main .large-col {
 
 
 .mid-sponsor {
-  padding: 15px 15px;
+  padding: 50px;
   overflow: auto;
 }
 
 .mid-sponsor img {
   width: 30%;
-  height: 30%;
+  height: 20%;
 }
 
-.mid-sponsor p {
-  font-size: 14px;
+.mid-sponsor .caption, .mid-sponsor .credits {
+ font-size: 14px;
+ margin-top: 30px;
 }
 
-.mid-sponsor .credits {
-  margin-top: 30px;
+.slogan {
+  width: 100%;
+  height: 300px;
+  background-color: #B4D0E7;
+}
+
+.slogan .row.container {
+  width: 60%;
+  margin: 0 auto;
+ 
 }
