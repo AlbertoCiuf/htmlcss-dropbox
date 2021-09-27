@@ -225,7 +225,7 @@ main .large-col {
   color: #1867FF;
 }
 
-
+/*SPONSOR SECTION*/
 .sponsor {
   margin-top: 40px;
   width: 100%;
@@ -297,9 +297,11 @@ main .large-col {
  margin-top: 30px;
 }
 
+
+/*SLOGAN*/
 .slogan {
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
   background-color: #B4D0E7;
 }
 
@@ -319,7 +321,7 @@ main .large-col {
 
 .slogan .row .slogan-text, .slogan .slogan-button {
   float: left;
-  padding-top: 90px;
+  padding: 90px 0;
 }
 
 .slogan .slogan-button {
@@ -337,6 +339,8 @@ main .large-col {
   font-size: 14px;
 }
 
+
+/*FAQ SECTION*/
 .faq-section .row.container {
   width: 60%;
   margin: 0 auto;
@@ -383,8 +387,7 @@ footer .container {
 footer ul {
   float: left;
   list-style: none;
-  padding-right: 180px;
- 
+  width: 20%;
 }
 
 footer ul li {
