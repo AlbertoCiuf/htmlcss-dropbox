@@ -220,6 +220,17 @@ main p.payment {
   margin-bottom: 35px;
 }
 
+main p.payment.monthly::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+  color: #3A65FF;
+}
+
+main p.payment::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+}
+
 main .main-col {
   width: calc(100% / 3.33);
   border: 1px solid #DEDEE0;
