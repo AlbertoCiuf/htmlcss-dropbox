@@ -409,7 +409,6 @@ main .large-col {
   float: left;
   height: 500px;
   width: 30%;
-  background-color: khaki;
 }
 
 .mid-sponsor {
@@ -423,24 +422,21 @@ main .large-col {
   float: left;
   height: 500px;
   width: 30%;
-  background-color: khaki;
 }
 
 .sponsor-box {
-  position: relative;
   width: 50%;
   height: 100%;
+  text-align: center;
   float: left;
+  line-height: 250px;
 }
 
 .sponsor-box > img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 7vw;
   height: 7vw;
   filter: invert(1);
+  vertical-align: middle;
 }
 
 .upper, .lower {
