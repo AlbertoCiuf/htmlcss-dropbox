@@ -22,7 +22,6 @@ body {
 
 .btn {
   color: white;
-  /* border: 1px solid black; */
   background-color: #1561FF;
   padding: 5px 15px;
   text-decoration: none;
@@ -285,8 +284,6 @@ main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
 }
 
 main .large-col {
-  /* min-height: 300px; */
-  /* background-color: cornflowerblue; */
   margin: 30px 0 150px 0;
   border: 1px solid #DEDEE0;
 }
@@ -323,8 +320,6 @@ main .large-col {
 
 .row .left-content {
   width: calc(60% - 20px);
-  /* min-height: 400px; */
-  /* background-color: darkorange; */
   margin-right: 20px;
 }
 
@@ -334,8 +329,6 @@ main .large-col {
 
 .row .right-content {
   width: 40%;
-  /* min-height: 400px;
-  background-color: darksalmon; */
 }
 
 .row .right-content h3 {
@@ -499,7 +492,6 @@ main .large-col {
 /*SLOGAN*/
 .slogan {
   width: 100%;
-  /* height: 300px; */
   background-color: #B4D0E7;
 }
 
@@ -559,6 +551,19 @@ main .large-col {
   border-top: 1px solid #DEDEE0;
 }
 
+.faq-section .faq-line p {
+  display: none;
+}
+
+.faq-section .faq-line:active .fa-chevron-down{
+  transform: rotate(180deg);
+}
+
+.faq-section .faq-line:active p {
+  display: inline-block;
+  padding: 30px 0 30px 0;
+}
+
 .faq-section .faq-line:last-child {
   border-bottom: 1px solid #DEDEE0;
   margin-bottom: 100px;
@@ -595,4 +600,21 @@ footer ul li {
 footer ul li:first-child {
   font-weight: bold;
   padding-bottom: 15px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .line {
+  float: left;
+  margin: 60px 0 40px 0;
+  width: 80px;
+}
+
+footer .language {
+  width: 80px;
+  color: #999999;
+  font-size: 12px;
 }
