@@ -388,7 +388,7 @@ main .large-col {
 
 .left-sponsor {
   float: left;
-  height: 400px;
+  height: 500px;
   width: 30%;
   background-color: khaki;
 }
@@ -396,44 +396,61 @@ main .large-col {
 .mid-sponsor {
   float: left;
   width: 40%;
-  height: 400px;
+  height: 500px;
   background-color: #F5F5F5;
 }
 
 .right-sponsor{
   float: left;
-  height: 400px;
+  height: 500px;
   width: 30%;
   background-color: khaki;
 }
 
-.left-sponsor .row.upper {
-  height: 200px;
-  background-color: cyan;
+.left-sponsor .row.upper-l, .left-sponsor .row.upper-r, .left-sponsor .row.lower-l, .left-sponsor .row.lower-r {
+  position: relative;
+  display: inline-block; 
+  width: 50%;
 }
 
-.left-sponsor .row.lower {
-  height: 200px;
-  background-color: brown;
+.left-sponsor .row.upper-l {
+  background-color: #A2D39B;
+ 
 }
 
+.left-sponsor .row.upper-r {
+background-color: #60082C;
+}
+
+.left-sponsor .row.lower-l {
+  background-color: #2E93CE;
+}
+
+.left-sponsor .row.lower-r {
+  background-color: #F41D1E;
+}
+
+
+
+.left-sponsor .row.upper-l img, .left-sponsor .row.upper-r img, .left-sponsor .row.lower-l img, .left-sponsor .row.lower-r img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+  width: 5vw;
+  height: 5vw;
+}
 
 /*correggere con position*/
-.left-sponsor .row.upper img, .left-sponsor .row.lower img, .right-sponsor .row.upper img, .right-sponsor .row.lower img {
-  padding-top: 70px;
-  width: 50%;
-  height: 70%;
-  float: left;
-}
+
 
 .right-sponsor .row.upper {
-  height: 200px;
-  background-color:burlywood;
+  height: 250px;
 }
 
 .right-sponsor .row.lower {
-  height: 200px;
-  background-color:cadetblue;
+  height: 250px;
 }
 
 
