@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -49,8 +53,7 @@ header {
   width: 100%;
   height: 78px;
   line-height: 75px;
-  min-width: 1000px;
-  overflow: hidden;
+  min-width: 1300px;
   background-color: #fff;
   z-index: 999;
 }
@@ -76,7 +79,7 @@ header {
 }
 
 .top-menu ul li:hover {
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
 }
 
 .top-menu ul li a.btn {
@@ -96,11 +99,50 @@ header {
   float: right;
 }
 
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 79px;
+  left: 0;
+  width: 280px;
+  background-color: #FAFAFA;
+}
+
+.dropdown-content ul {
+ line-height: 1.5em;
+}
+
+.dropdown-content ul li {
+  padding: 20px 10px 10px 10px;
+}
+
+.dropdown-content ul li a {
+  font-size: 16px;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul li:hover {
+  border-bottom: none;
+}
+
+.dropdown-content ul li a:hover {
+  text-decoration: underline;
+}
+
 /* JUMBOTRON */
 .jumbotron {
   background-color: #B4D0E7;
   height: 750px;
   margin-bottom: 200px;
+  z-index: 2;
 }
 
 .jumbotron .container {
@@ -189,8 +231,6 @@ main .main-col.mid-col {
 
 main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
   float: left;
-  /* min-height: 800px; */
-  /* background-color: cornflowerblue; */
 }
 
 
@@ -555,11 +595,11 @@ main .large-col {
   display: none;
 }
 
-.faq-section .faq-line:active .fa-chevron-down{
+.faq-section .faq-line:hover .fa-chevron-down{
   transform: rotate(180deg);
 }
 
-.faq-section .faq-line:active p {
+.faq-section .faq-line:hover p {
   display: inline-block;
   padding: 30px 0 30px 0;
 }
@@ -602,9 +642,13 @@ footer ul li:first-child {
   padding-bottom: 15px;
 }
 
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 footer ul li a:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 
 footer .line {
