@@ -262,6 +262,8 @@ main .large-col {
   background-color: brown;
 }
 
+
+/*correggere con position*/
 .left-sponsor .row.upper img, .left-sponsor .row.lower img, .right-sponsor .row.upper img, .right-sponsor .row.lower img {
   padding-top: 70px;
   width: 50%;
@@ -304,5 +306,92 @@ main .large-col {
 .slogan .row.container {
   width: 60%;
   margin: 0 auto;
+}
+
+.slogan .slogan-text {
+  width: 40%;
+  color: #610D2D;
+}
+
+.slogan .slogan-text h2 {
+  font-size: 36px;
+}
+
+.slogan .row .slogan-text, .slogan .slogan-button {
+  float: left;
+  padding-top: 90px;
+}
+
+.slogan .slogan-button {
+  width: 60%;
+  padding-left: 35%;
+}
+
+.slogan .slogan-button .btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 40px;
+  font-size: 14px;
+}
+
+.faq-section .row.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.faq-section .row.container .faq-text {
+  padding-top: 100px;
+}
+
+.faq-section .row.container h3 {
+  font-size: 32px;
+  padding-bottom: 50px;
+}
+
+.faq-section .faq-line {
+  position: relative;
+  padding: 30px 0;
+  border-top: 1px solid #DEDEE0;
+}
+
+.faq-section .faq-line:last-child {
+  border-bottom: 1px solid #DEDEE0;
+  margin-bottom: 100px;
+}
+
+.faq-section .faq-line i {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 90px 0;
+  background-color: #000;
+}
+
+footer .container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
+  padding-right: 180px;
  
+}
+
+footer ul li {
+  color: #fff;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  padding-bottom: 15px;
 }
