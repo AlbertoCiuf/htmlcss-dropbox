@@ -347,24 +347,32 @@ main .large-col {
   border: none;
 }
 
-/* .row .main-col.card.mid-col {
-  background-color: #fff;
-} */
+
 
 .row .main-col.card .card-img {
-  background-color:deepskyblue;
-  min-height: 300px;
-  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.row .main-col.card .card-img img {
+  width: 100%;
 }
 
 .row .main-col.card .card-text {
-  background-color:indianred;
-  min-height: 350px;
-  margin: 30px 0;
+  margin: 20px 0;
 }
+
+.row .main-col.card .card-text h3 {
+  font-size: 24px;
+}
+
+.row .main-col.card .card-text p {
+  padding-top: 20px;
+}
+
 
 .row.narrow h2 {
   width: 70%;
+  padding-top: 150px;
   margin-bottom: 30px;
 }
 
