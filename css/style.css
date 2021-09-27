@@ -22,9 +22,13 @@ body {
 
 .btn {
   color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: #1561FF;
   padding: 5px 15px;
+}
+
+.line {
+  border: 1px solid #DEDEE0;
 }
 
 /* HEADER */
@@ -157,6 +161,7 @@ main p.payment {
 
 main .main-col {
   width: calc(100% / 3.33);
+  border: 1px solid #DEDEE0;
 }
 
 main .main-col.mid-col {
@@ -166,13 +171,93 @@ main .main-col.mid-col {
 main .main-col.left-col, main .main-col.mid-col, main .main-col.right-col {
   float: left;
   min-height: 800px;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+}
+
+
+.main-col .category p {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #DEDEE0;
+}
+
+.main-col .plan, .main-col .features, .main-col .purchase, .main-col .plan-description {
+  padding: 30px 0 0 25px;
+}
+
+.main-col .plan h3, .main-col .plan h4, .main-col .plan p {
+  padding-bottom: 15px;
+}
+
+.main-col .features p {
+  padding-bottom: 20px;
+}
+
+.main-col .features p:last-child {
+  padding-bottom: 40px;
+}
+
+.main-col .features .users::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f007";
+  padding-right: 5px;
+}
+.main-col .features .storage::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f07b";
+  padding-right: 5px;
+}
+.main-col .features .other::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f303";
+  font-weight: 900;
+  padding-right: 5px;
+}
+
+.main-col .plan p {
+  color: #A4ADB5;
+  font-size: 14px;
+}
+
+.main-col .purchase .btn {
+  text-decoration: none;
+  padding: 7px 45px;
+}
+
+.main-col .purchase p {
+  padding: 40px 0;
+}
+
+.main-col .purchase .line {
+  width: 60px;
+  border-bottom: 1px solid #DEDEE0;
+}
+
+.main-col .plan-description h4, .main-col .plan-description ul li {
+  padding: 10px 0;
+}
+
+.main-col .plan-description ul {
+  list-style: none;
+}
+
+.main-col .plan-description ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: #1561FF;
+  padding-right: 5px;
+} 
+
+.main-col .plan-description ul li:last-child {
+  padding-bottom: 200px;
 }
 
 main .large-col {
   min-height: 300px;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
   margin: 30px 0 150px 0;
+  border: 1px solid #DEDEE0;
 }
 
 .row .left-content, .row .right-content {
@@ -198,6 +283,7 @@ main .large-col {
 
 .row .main-col.card {
   float: left;
+  border: none;
 }
 
 .row .main-col.card.mid-col { /*provvisorio per via del layout coi colori e della classe condivisa con le altre colonne*/
