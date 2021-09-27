@@ -304,15 +304,38 @@ main .large-col {
 
 .row .left-content {
   width: calc(60% - 20px);
-  min-height: 400px;
-  background-color: darkorange;
+  /* min-height: 400px; */
+  /* background-color: darkorange; */
   margin-right: 20px;
+}
+
+.row .left-content img {
+  width: 100%;
 }
 
 .row .right-content {
   width: 40%;
-  min-height: 400px;
-  background-color: darksalmon;
+  /* min-height: 400px;
+  background-color: darksalmon; */
+}
+
+.row .right-content h3 {
+  font-size: 24px;
+  padding: 30px 25px;
+}
+
+.row .right-content p {
+  padding: 0 20px 30px 25px;
+}
+
+.row .right-content .button-area {
+  padding: 0 20px 0 25px;
+}
+
+.row .right-content .button-area .btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
 }
 
 .row.photo-text {
