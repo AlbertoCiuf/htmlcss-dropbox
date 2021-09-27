@@ -409,8 +409,9 @@ main .large-col {
 
 .left-sponsor .row.upper-l, .left-sponsor .row.upper-r, .left-sponsor .row.lower-l, .left-sponsor .row.lower-r {
   position: relative;
-  display: inline-block; 
+  /* display: inline-block;  */
   width: 50%;
+  height: 50%;
 }
 
 .left-sponsor .row.upper-l {
